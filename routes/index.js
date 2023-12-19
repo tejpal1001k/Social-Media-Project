@@ -5,6 +5,7 @@
 
  console.log("succesfully working router");
  router.get('/',homeController.home);
+ 
  router.use('/users', require('./users'));
 
 
